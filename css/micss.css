@@ -1,0 +1,26 @@
+.sysprepbg {
+    background: url("../imagenes/wallpapers/wgreyblue.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:100%;
+}
+.sysprepbg2 {
+    background: url("../imagenes/wallpapers/clean.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:100%;
+}
+.migrey {
+   color: grey;
+   font-style: italic;
+}
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}

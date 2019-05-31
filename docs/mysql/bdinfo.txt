@@ -1,0 +1,38 @@
+﻿Tablas a crear en MySql:
+
+  
+
+$host='localhost';
+  
+$basedatos='sysprepgenerator';
+ 
+$usuario='sysprepgenerator';
+  
+$password='';
+
+
+
+//Si no se indica no permite nulos
+
+Tabla 
+
+usuarios:
+
+
+id int(11) autonumérico
+
+email varchar(80)  Unique (no repetidos)
+
+password varchar(150) //Se introduce cifrado, por eso necesita este tamaño
+
+
+
+
+Tabla sysprep:
+id int(11) autonumérico
+
+idusuario unsigned int
+
+fecha datetime
+
+path varchar(200) permitir nulos

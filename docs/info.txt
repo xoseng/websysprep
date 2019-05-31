@@ -1,0 +1,18 @@
+﻿Sysprep Generator proyecto web v0.3
+
+Autor: Xosé Brais Noya
+
+
+-Servicios:
+  
+-nginx o apache2
+  
+-php
+  
+-python
+  
+-mysql //recomiendo usar phpmyadmin para gestionar la bbdd
+
+
+-Html css: bootstrap
+

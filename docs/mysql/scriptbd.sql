@@ -1,0 +1,3 @@
+CREATE USER 'sysprepgenerator'@'%' IDENTIFIED BY 'abc123..';GRANT USAGE ON *.* TO 'sysprepgenerator'@'%' REQUIRE NONE WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;CREATE DATABASE IF NOT EXISTS `sysprepgenerator`;GRANT ALL PRIVILEGES ON `sysprepgenerator`.* TO 'sysprepgenerator'@'%';
+CREATE TABLE `sysprepgenerator`.`usuarios` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `email` VARCHAR(80) NOT NULL , `password` VARCHAR(150) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+CREATE TABLE `sysprepgenerator`.`sysprep` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `idusuario` INT UNSIGNED NOT NULL , `fecha` DATETIME NOT NULL , `path` VARCHAR(200) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
